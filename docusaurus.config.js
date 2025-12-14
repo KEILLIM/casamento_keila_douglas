@@ -22,7 +22,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://KEILLIM.github.io',
-  baseUrl: '/site_docusaurus/',
+  baseUrl: '/casamento_keila_douglas/',
 
   // GitHub pages deployment config.
   organizationName: 'KEILLIM', // Usually your GitHub org/user name.
@@ -44,7 +44,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/KEILLIM/site_docusaurus/tree/master/',
+            'https://github.com/KEILLIM/casamento_keila_douglas/tree/master/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/KEILLIM/site_docusaurus/tree/master/',
+            'https://github.com/KEILLIM/casamento_keila_douglas/tree/master/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
