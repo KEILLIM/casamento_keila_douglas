@@ -155,4 +155,12 @@ const config = {
     }),
 };
 
-export default config;
+export default {
+  url: "https://keillim.github.io",
+  baseUrl: "/site_docusaurus/",
+  trailingSlash: false,
+
+  organizationName: "KEILLIM",
+  projectName: "site_docusaurus",
+  // ...
+};
