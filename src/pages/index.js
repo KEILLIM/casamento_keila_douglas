@@ -116,13 +116,13 @@ function FAQItem({ q, a }) {
 export default function Home() {
   // >>> EDITE AQUI <<<
   const casal = "Keila & Douglas";
-  const dataExtenso = "Data do casamento — 00/00/2026";
+  const dataExtenso = "Data do casamento — 21/02/2026";
   const local = "Local — Cidade/UF";
-  const targetISO = "2026-01-01T00:00:00-03:00"; // ajuste a data/hora real
+  const targetISO = "2026-02-21T11:30:00-03:00"; // ajuste a data/hora real
 
   // Links (pode ser Google Forms, WhatsApp, Pix/Lista etc.)
   const rsvpLink = "https://forms.gle/SEU_FORM_AQUI";
-  const mapsLink = "https://maps.google.com/?q=SEU_LOCAL_AQUI";
+  const mapsLink = "https://www.google.com/maps/place/Espa%C3%A7o+Villa+Borghese/@-23.425097,-46.5966074,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef5bbcb4278a1:0x86013c8474a85ac0!8m2!3d-23.4250971!4d-46.5917418!16s%2Fg%2F11hjf1zjrw?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D";
   const listaLink = "https://SEU_LINK_DA_LISTA_AQUI";
 
   return (
@@ -193,13 +193,13 @@ export default function Home() {
           subtitle="Horários e momentos principais (ajuste conforme seu evento)."
         >
           <div className={styles.grid3}>
-            <Card title="Cerimônia" meta="⛪ 16:00">
+            <Card title="Cerimônia" meta="⛪ 12:00">
               <p>Abertura + entrada + votos + aquela emoção.</p>
             </Card>
-            <Card title="Recepção" meta="🥂 17:00">
+            <Card title="Recepção" meta="🥂 11:30">
               <p>Brinde, fotos, comes & bebes.</p>
             </Card>
-            <Card title="Festa" meta="🕺 19:00">
+            <Card title="Festa" meta="🕺 12:40">
               <p>Pista liberada + surpresas + muita alegria.</p>
             </Card>
           </div>
